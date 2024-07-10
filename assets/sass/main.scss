@@ -16,12 +16,22 @@
   'base/typography';
 
 // layout
+@import
+  'layout/nav',
+  'layout/section';
 
 // components
+@import
+  'components/buttons',
+  'components/nav',
+  'components/logo',
+  'components/text_block';
 
 // pages
 
 // themes
+@import
+  'themes/theme';
 
 // shame
 @import

@@ -1,0 +1,32 @@
+// Estilado botones
+
+.btn--primary {
+  background-color: $primary-white;
+  color: $terciary-black;
+  border: 1px solid $terciary-black;
+
+  &:hover {
+    color: $primary-black;
+    border-color: $primary-black;
+  }
+}
+
+.btn--secondary {
+  background-color: $primary-green;
+  color: $primary-white;
+
+  &:hover {
+    color: $secondary-black;
+    background-color: $secondary-green;
+  }
+}
+
+// Links
+a {
+  text-decoration: none;
+  color: $secondary-black;
+
+  &:hover {
+    color: $primary-black;
+  }
+}
