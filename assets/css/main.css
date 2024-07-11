@@ -17,4 +17,100 @@
 :root {
   font-family: "PT Mono", monospace;
   font-weight: 400;
+}
+
+h1, .fs-xxxl {
+  font-size: 70px;
+  font-family: "PT Mono", monospace;
+}
+
+h2, .fs-xxl {
+  font-size: 40px;
+  font-family: "PT Mono", monospace;
+}
+
+h3, .fs-xl {
+  font-size: 30px;
+  font-family: "PT Mono", monospace;
+}
+
+h4, .fs-lg {
+  font-size: 18px;
+  font-family: "PT Mono", monospace;
+}
+
+p, .fs-md {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 2rem;
+  padding-block: 2rem;
+}
+
+.section {
+  display: flex;
+}
+.section__left {
+  width: 70%;
+}
+.section__right {
+  width: 30%;
+}
+
+.btn {
+  font-family: "PT Mono", monospace;
+  text-align: center;
+  padding: 0.5rem;
+  min-width: 9rem;
+  max-width: 100%;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  height: 4rem;
+}
+
+.text-block {
+  padding-inline: 2rem;
+}
+
+.btn--primary {
+  background-color: #fff;
+  color: #a2a2a2;
+  border: 1px solid #a2a2a2;
+}
+.btn--primary:hover {
+  color: #000;
+  border-color: #000;
+}
+
+.btn--secondary {
+  background-color: #4ca866;
+  color: #fff;
+}
+.btn--secondary:hover {
+  color: #454545;
+  background-color: #9dcfab;
+}
+
+a {
+  text-decoration: none;
+  color: #454545;
+}
+a:hover {
+  color: #000;
 }/*# sourceMappingURL=main.css.map */
