@@ -25,10 +25,16 @@
   'components/buttons',
   'components/nav',
   'components/logo',
-  'components/text_block';
+  'components/text_block',
+  'components/map',
+  'components/stats',
+  'components/arrow',
+  'components/img';
 
 // pages
-
+@import
+  'pages/home';
+  
 // themes
 @import
   'themes/theme';

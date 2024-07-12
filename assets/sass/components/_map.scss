@@ -1,0 +1,37 @@
+.map {
+  min-width: 450px;
+  max-width: 600px;
+  height: 85%;
+  position: relative; // lo mantiene en el flujo del documento, pero activa z-index y desplazamientos
+  float: right; // Lo "pega" al borde derecho junto a la foto
+
+  &__offset {
+    // Se colocará la imagen como background de un div
+    // Recordar meet & coffee
+    background-image: url('../images/img-4.png');
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 102;
+  }
+  
+  &--u-r {
+    // Modificador desplazamiento
+    top: 2rem;
+    right: 3rem;
+  }
+
+  &--blue {
+    background-color: $primary-blue;
+  }
+
+  &--yellow {
+    background-color: $primary-yellow;
+  }
+
+  &--orange {
+    background-color: $primary-orange;
+  }
+}

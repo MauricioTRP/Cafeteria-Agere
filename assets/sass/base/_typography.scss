@@ -6,24 +6,29 @@
 h1, .fs-xxxl {
   font-size: $fs-xxxl;
   font-family: $pt-mono;
+  padding-bottom: 2rem;
 }
 
 h2, .fs-xxl {
   font-size: $fs-xxl;
   font-family: $pt-mono;
+  padding-bottom: 1.5rem;
 }
 
 h3, .fs-xl {
   font-size: $fs-xl;
   font-family: $pt-mono;
+  padding-bottom: 1rem;
 }
 
 h4, .fs-lg {
   font-size: $fs-lg;
   font-family: $pt-mono;
+  padding-bottom: 1rem;
 }
 
 p, .fs-md {
   font-size: $fs-md;
   font-family: $roboto;
+  padding-bottom: 0.8rem;
 }

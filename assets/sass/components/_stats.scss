@@ -1,0 +1,22 @@
+.stats {
+  position: absolute; // lo saca del flujo del documento y lo posiciona relativo al padre (el padre necesita position relative)
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  background-color: $primary-white;
+  bottom: 0;
+  right: 25%;
+
+  // Bloque de información
+  &__info {
+    padding: 1rem;
+    max-width: 10rem;
+    text-align: center;
+
+    // aplica el estilo a todo el que no sea el primero de su tipo
+    // En este caso desde el segundo &__info
+    &:not(:first-of-type) { 
+      padding-left: 1rem;
+    }
+  }
+}

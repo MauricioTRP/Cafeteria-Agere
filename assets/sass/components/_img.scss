@@ -1,0 +1,11 @@
+// Definimos el número total de iteraciones (10 en este caso)
+$iteraciones: 10;
+
+// Bucle @for para generar las clases
+@for $i from 1 through $iteraciones {
+  .img-#{$i * 10} {
+    width: $i * 10%; // Calculamos el ancho en base al valor actual de $i
+    max-height: 100%; // Forzamos que use el alto completo del contenedor
+    object-fit: cover; // Se Forza imagen a que mantenga ratio (relación ancho alto)
+  }
+}
